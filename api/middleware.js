@@ -1,4 +1,5 @@
 class MiddleWare {
+
     static TimeEndpoint = (req, res, next) => {
         console.time('Endpoint time');
         res.on("finish", () => {
@@ -6,6 +7,7 @@ class MiddleWare {
         });
         next()
     }
+    
 }
 
 module.exports = {
