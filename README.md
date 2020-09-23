@@ -13,9 +13,11 @@ Steps to get server running...
 
 ```POST /findLuggage```
 
-REQUEST
+### REQUEST
+
 headers:
 - Content-Type: application/json
+
 body params:
 - flightList: Take an array of flight connections
 ```
@@ -24,7 +26,7 @@ body params:
 }
 ```
 
-RESPONSE
+### RESPONSE
 - success: Returns true / false depending on whether request was successful
 - cache: Returns true / false depending on whether server cache was hit
 - path: Return array given the start and end destination
