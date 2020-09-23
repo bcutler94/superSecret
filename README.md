@@ -14,6 +14,8 @@ Steps to get server running...
 ```POST /findLuggage```
 
 REQUEST
+headers:
+- Content-Type: application/json
 body params:
 - flightList: Take an array of flight connections
 ```
