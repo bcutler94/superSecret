@@ -46,7 +46,6 @@ body params:
 - Algorithm uses graph to find the start and end destination in linear time complexity
 - Server has local cache that holds up to 1000 unique flightLists
 - Server has some 3rd party (body-parser) and native middleware to provide JSON body parsing and time endpoint metrics
-- Total time took for core server logic ~45 mins but spent ~1 hour adding cache, user input functionality + testing
 
 ### TODO
 - Add validation to body params
